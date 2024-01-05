@@ -7,7 +7,7 @@ def main(page: ft.Page):
     page.update()
 
     def button_clicked(e):
-        page.add(ft.Text("Clicked!"))
+        page.add(ft.Text("Botoniado!"))
 
 
     page.add(
